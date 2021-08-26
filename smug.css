@@ -33,12 +33,35 @@
   height: 64px;
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  margin: -80px auto 60px 0;
+  margin: -80px auto 0 0;
+}
+
+.u-section-1 .u-icon-4 {
+  width: 64px;
+  height: 64px;
+  background-image: none;
+  margin: 43px auto 60px 256px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-icon-4 {
+    margin-left: 196px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-icon-4 {
+    margin-left: 147px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
+  }
+
+  .u-section-1 .u-icon-4 {
+    margin-left: 93px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 20px;
