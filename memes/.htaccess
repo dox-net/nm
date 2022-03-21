@@ -1,0 +1,3 @@
+Options +indexes
+indexoptions fancyindexing
+indexignore .htaccess
